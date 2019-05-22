@@ -169,8 +169,6 @@ def main():
             dir_y: int = random.randint(0, 1)
             if dir_y == 0:
                 dir_y = -1
-            dir_y = -1
-            dir_x = -1
             b = Ball(S_WIDTH / 2, S_HEIGHT / 2, BORDER, S_WIDTH - BORDER, BORDER, S_HEIGHT - BORDER,
                      10, 10, 1 * 5, dir_x, dir_y)
             end = False
